@@ -786,7 +786,7 @@ _FX PROCESS *Process_Create(
             Log_Msg_Process(MSG_6004, proc->box->name, exclusive_setting, box->session_id, proc->pid);
 
             // allow the process to run for a sort while to allow the features to be evaluated
-            Process_ScheduleKill(proc, 5*60*1000); // 5 minutes
+            //Process_ScheduleKill(proc, 5*60*1000); // 5 minutes
         }
     }
 
